@@ -8,7 +8,7 @@ DASSLC_FOLDER = "dasslc_base"
 DASSLC_ZIP_FILE = "dasslc_v39.zip"
 
 def get_dasslc():
-	url = "http://www.enq.ufrgs.br/enqlib/numeric/dasslc_v39.zip"
+	url = "https://github.com/clarissa-fernanda/dasslcy/blob/master/dasslc_v39.zip"
 	out_file = DASSLC_ZIP_FILE
 	dir_dasslc = DASSLC_FOLDER
 	if not os.path.isdir("./dasslc_base"):
