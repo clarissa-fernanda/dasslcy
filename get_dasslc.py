@@ -13,10 +13,10 @@ def get_dasslc():
 	dir_dasslc = DASSLC_FOLDER
 	if not os.path.isdir("./dasslc_base"):
 		print('DOWNLOADING dasslc files')
-		download(url, out_file)
+		#download(url, out_file)
 		unzip_file(out_file, dir_dasslc)
 		remove_files_except()
-		os.remove(out_file)
+		#os.remove(out_file)
 	else:
 		print('dasslc_base folder exists: NOT DOWNLOADING')
 
